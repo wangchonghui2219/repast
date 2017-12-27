@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--头部标题-->
+    <style name="Title_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--首页分类-->
+    <style name="home_pic_style">
+        <item name="android:layout_width">160px</item>
+        <item name="android:layout_height">160px</item>
+
+    </style>
+    <style name="text_style_13">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">3dp</item>
+
+        <item name="android:textColor">@color/black_color</item>
+        <item name="android:textSize">@dimen/Text_inside_size</item>
+    </style>
+    <style name="text_style_13_gary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Text_inside_size</item>
+    </style>
+    <style name="text_style_12">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_color</item>
+        <item name="android:textSize">@dimen/Text_inside_size2</item>
+    </style>
+    <!--分隔线-->
+    <style name="halvingline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/gary_line</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar"></style>
+
+    <style name="Buton_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_btn_bg</item>
+    </style>
+        <style name="Button_small">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">30dp</item>
+            <item name="android:paddingLeft">10dp</item>
+            <item name="android:paddingRight">10dp</item>
+            <item name="android:textSize">13sp</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:background">@drawable/shape_btn_bg</item>
+        </style>
+    <style name="Auth_code">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">30dp</item>
+
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_auth_code</item>
+    </style>
+        <style name="Item_pic_size">
+            <item name="android:layout_width">@dimen/pic_small_zize</item>
+            <item name="android:layout_height">@dimen/pic_small_zize</item>
+        </style>
+    <style name="Item_pic_size2">
+        <item name="android:layout_width">@dimen/pic_small_zize2</item>
+        <item name="android:layout_height">@dimen/pic_small_zize2</item>
+    </style>
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

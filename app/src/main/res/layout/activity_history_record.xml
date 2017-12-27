@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dlwx.repast.view.activity.HistoryRecordActivity">
+
+
+    <include
+        layout="@layout/tool_bar"
+        />
+    <View
+        style="@style/halvingline"
+       />
+        <TextView
+            android:id="@+id/tv_data"
+          style="@style/text_style_13"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+           />
+    <View
+        style="@style/halvingline"
+       />
+    <include
+        android:visibility="gone"
+        layout="@layout/entry"
+        />
+        <ListView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/lv_list"
+            android:layout_height="wrap_content"></ListView>
+</LinearLayout>

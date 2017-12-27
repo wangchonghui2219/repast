@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_record"
+        >
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/text_style_13"
+            android:text="总数量"
+            android:textColor="@color/white"
+             />
+        <TextView
+            android:id="@+id/tv_totalnum"
+            style="@style/text_style_13"
+            android:text="总数量"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+             />
+
+    </RelativeLayout>
+    <com.dlwx.repast.view.MyListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.dlwx.repast.view.MyListView>
+
+    <TextView
+        android:id="@+id/tv_desc"
+       style="@style/text_style_13"
+        android:textColor="@color/orange"
+        android:padding="10dp"
+        android:text="查看详情"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

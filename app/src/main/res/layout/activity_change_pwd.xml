@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dlwx.repast.view.activity.ChangePWdActivity">
+
+    <include
+        layout="@layout/tool_bar"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            style="@style/Item_pic_size2"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/icon_xiugaimima"
+            />
+        <EditText
+            android:id="@+id/et_oldpwd"
+            style="@style/text_style_13"
+            android:inputType="textPassword"
+            android:layout_marginLeft="@dimen/spacebetween"
+            android:hint="请输入原密码"
+            android:background="@null"
+
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            />
+    </LinearLayout>
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            style="@style/Item_pic_size2"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/icon_xiugaimima"
+            />
+        <EditText
+            android:id="@+id/et_newpwd"
+            style="@style/text_style_13"
+            android:layout_marginLeft="@dimen/spacebetween"
+            android:hint="请输入新密码"
+            android:inputType="textPassword"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            />
+    </LinearLayout>
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            style="@style/Item_pic_size2"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/icon_xiugaimima"
+            />
+        <EditText
+            android:id="@+id/et_affpwd"
+            style="@style/text_style_13"
+            android:layout_marginLeft="@dimen/spacebetween"
+            android:hint="请再次输入原密码"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            />
+    </LinearLayout>
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/Button_small"
+            android:text="确认修改"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+
+            />
+</LinearLayout>

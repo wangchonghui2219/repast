@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dlwx.repast.view.fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:background="@mipmap/icon_homebg"
+        >
+        <TextView
+           style="@style/Title_text_style"
+            android:text="首页"
+            android:layout_marginTop="@dimen/status_bar_height"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100px"
+            >
+            <LinearLayout
+                android:id="@+id/ll_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                   style="@style/home_pic_style"
+                    android:src="@mipmap/icon_sysaoma"
+                    />
+                <TextView
+                    style="@style/text_style_13"
+                    android:text="扫码记录"
+                    android:layout_marginTop="@dimen/spacebetween"
+                    android:layout_gravity="center_horizontal"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="100px"
+                >
+                <ImageView
+                    style="@style/home_pic_style"
+                   android:src="@mipmap/icon_syshuju"
+                    />
+                <TextView
+                   style="@style/text_style_13"
+                    android:text="订餐数据"
+                    android:layout_marginTop="@dimen/spacebetween"
+                    android:layout_gravity="center_horizontal"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

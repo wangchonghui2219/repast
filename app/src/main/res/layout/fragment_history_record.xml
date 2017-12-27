@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dlwx.repast.view.fragment.HistoryRecordFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape_record"
+        android:layout_height="wrap_content">
+        <TextView
+           style="@style/text_style_13"
+            android:id="@+id/tv_name"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+           style="@style/text_style_13"
+            android:id="@+id/tv_num"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lv_list"
+        android:layout_height="wrap_content"></ListView>
+
+        <TextView
+            android:id="@+id/tv_lookdesc"
+            style="@style/text_style_13"
+            android:padding="10dp"
+            android:textColor="@color/orange"
+            android:layout_gravity="center_horizontal"
+            android:text="查看详情"
+            />
+</LinearLayout>

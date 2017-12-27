@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dlwx.repast.view.activity.ScRecordActivity">
+
+    <include
+        layout="@layout/tool_bar"
+        />
+        <View
+            style="@style/halvingline"
+           />
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tb_title"
+            app:tabIndicatorColor="@color/orange"
+            android:layout_width="match_parent"
+           app:tabSelectedTextColor="@color/orange"
+            app:tabTextColor="@color/black_color"
+
+            android:layout_height="wrap_content">
+
+        </android.support.design.widget.TabLayout>
+    <View
+        style="@style/halvingline"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

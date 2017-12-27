@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dlwx.repast.view.activity.SettCenterActivity">
+    <include
+        layout="@layout/tool_bar"
+        />
+    <LinearLayout
+        android:id="@+id/ll_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Item_pic_size"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/icon_szdenglui" />
+
+        <TextView
+               style="@style/text_style_13"
+                android:layout_marginLeft="@dimen/spacebetween"
+                android:text="修改登录密码"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+
+                />
+        <TextView
+            style="@style/text_style_13_gary"
+            android:text="修改"
+            android:layout_gravity="center_vertical"
+            />
+            <ImageView
+                style="@style/Item_pic_size2"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/icon_szjt"
+                android:layout_marginLeft="5dp"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            style="@style/Item_pic_size"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/icon_szbangding"
+            />
+        <TextView
+            style="@style/text_style_13"
+            android:layout_marginLeft="@dimen/spacebetween"
+            android:layout_width="0dp"
+            android:text="修改绑定手机号"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/tv_phone"
+            style="@style/text_style_13_gary"
+            android:text=""
+            android:layout_gravity="center_vertical"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            style="@style/Item_pic_size2" android:layout_gravity="center_vertical"
+
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/icon_szjt"
+            android:layout_width="19dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+        <TextView
+            android:id="@+id/tv_mename"
+            style="@style/text_style_13"
+            />
+            <TextView
+            android:id="@+id/tv_price"
+            style="@style/text_style_13"
+                android:layout_centerHorizontal="true"
+            />
+            <TextView
+            android:id="@+id/tv_num"
+            style="@style/text_style_13"
+                android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
